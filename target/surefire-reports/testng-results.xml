@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="31243" started-at="2018-09-21T12:49:32Z" finished-at="2018-09-21T12:50:04Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Tc_DataFromEXCEL.LoadBrowser()[pri:0, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="LoadBrowser" class="testCases.Tc_DataFromEXCEL"/>
+        <method signature="Tc_DataFromEXCEL.LoadingURLFromEXCEL(java.lang.String)[pri:1, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="LoadingURLFromEXCEL" class="testCases.Tc_DataFromEXCEL"/>
+        <method signature="Tc_DataFromEXCEL.quitAll()[pri:6, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="quitAll" class="testCases.Tc_DataFromEXCEL"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Regression 1" duration-ms="31243" started-at="2018-09-21T12:49:32Z" finished-at="2018-09-21T12:50:04Z">
+      <class name="testCases.Tc_DataFromEXCEL">
+        <test-method status="PASS" signature="LoadBrowser()[pri:0, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="LoadBrowser" duration-ms="4284" started-at="2018-09-21T18:19:32Z" finished-at="2018-09-21T18:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadBrowser -->
+        <test-method status="PASS" signature="LoadingURLFromEXCEL(java.lang.String)[pri:1, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="LoadingURLFromEXCEL" duration-ms="4721" started-at="2018-09-21T18:19:37Z" data-provider="ExcelLoadURL" finished-at="2018-09-21T18:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadingURLFromEXCEL -->
+        <test-method status="PASS" signature="LoginToApp(java.lang.String, java.lang.String)[pri:2, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="LoginToApp" duration-ms="2325" started-at="2018-09-21T18:19:42Z" data-provider="ExcelLogin" finished-at="2018-09-21T18:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akshaymarathe31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akshaymarathe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method status="PASS" signature="Flight_Details()[pri:3, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="Flight_Details" duration-ms="1397" started-at="2018-09-21T18:19:44Z" finished-at="2018-09-21T18:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_Details -->
+        <test-method status="PASS" signature="SelectingFlights()[pri:4, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="SelectingFlights" duration-ms="1372" started-at="2018-09-21T18:19:46Z" finished-at="2018-09-21T18:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingFlights -->
+        <test-method status="PASS" signature="PassengerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="PassengerDetails" duration-ms="15386" started-at="2018-09-21T18:19:47Z" data-provider="PassengerDetails" finished-at="2018-09-21T18:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rocky]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CNumber]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Clast]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[wakad]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pin]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PassengerDetails -->
+        <test-method status="PASS" signature="quitAll()[pri:6, instance:testCases.Tc_DataFromEXCEL@2812cbfa]" name="quitAll" duration-ms="914" started-at="2018-09-21T18:20:03Z" finished-at="2018-09-21T18:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAll -->
+      </class> <!-- testCases.Tc_DataFromEXCEL -->
+    </test> <!-- Regression 1 -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

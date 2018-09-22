@@ -1,0 +1,4 @@
+testCases\TC_01_BrowserLooad.class
+testCases\Tc_DataFromEXCEL.class
+testCases\TC_02_LoginDataDriven.class
+testCases\TC_EndToEnd.class
