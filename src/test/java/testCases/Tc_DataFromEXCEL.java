@@ -59,6 +59,7 @@ public class Tc_DataFromEXCEL extends TestBase
 	{
 		LogIn_Module LogInobj=new LogIn_Module();
 		LogInobj.LoggIn_Process(i, j);
+		System.out.println("Git.....");
 	}
 
 	@Test (priority=3)
