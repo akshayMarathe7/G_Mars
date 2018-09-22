@@ -74,6 +74,7 @@ public class Tc_DataFromEXCEL extends TestBase
 		FlightObj.Preferences();
 		FlightObj.ContinueToNext();
 		System.out.println("Practice push into git");
+		System.out.println("Practice Pull Command");
 		
 	}
 	@Test (priority=4)
